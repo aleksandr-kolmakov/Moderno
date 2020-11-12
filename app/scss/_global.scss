@@ -15,7 +15,7 @@ a{
 }
 
 ul,
-li{
+li{  
     margin: 0;
     padding: 0;
     list-style: none;
@@ -47,7 +47,7 @@ body{
 .title{
     text-align: center;
     color: $bg;
-    font-weight: 700;
+    @include f700;
     font-size: 36px;
     line-height: 60px;
     margin-bottom: 30px;
